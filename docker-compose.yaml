@@ -1,0 +1,6 @@
+version: "3"
+services:
+  server:
+    image: annabogacheva/server_mafia_rpc
+    ports:
+      - "8080:8080/tcp"
